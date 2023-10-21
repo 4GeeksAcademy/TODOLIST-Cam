@@ -1,6 +1,6 @@
 import React from "react";
 import TodoList from "./Todolist";
-import "../../styles/style.css"
+
 
 
 //create your first component

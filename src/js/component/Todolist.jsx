@@ -12,7 +12,10 @@ function TodoList() {
     console.log(tasks);
   };
 
-  const  deleteTask = () => { tasks.filter( task=>)
+  const deleteTask = (taskToDelete) => {
+    const updatedTasks = tasks.filter(task => task !== taskToDelete);
+    setTasks(updatedTasks);
+    updateTodolist ();
       
   }
 
